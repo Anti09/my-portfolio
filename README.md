@@ -4,7 +4,9 @@ This application displays a list of stock holdings along with a collapsible port
 
 **Features**
 **Holdings** List: Displays the list of stocks in which the user has invested, including key details like stock name, quantity, last traded price (LTP), and average price.
+
 **Portfolio Summary**: Collapsible and expandable UI to provide a high-level overview of the portfolio's valuation.
+
 **Responsive Design**: Clean, constraint-free UI developed programmatically, ensuring a smooth and responsive user experience across devices.
 
 **Points of Evaluation**
