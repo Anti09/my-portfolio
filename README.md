@@ -3,7 +3,8 @@
 This application displays a list of stock holdings along with a collapsible portfolio summary view, as demonstrated in the provided screenshots.
 
 **Features**
-**Holdings** List: Displays the list of stocks in which the user has invested, including key details like stock name, quantity, last traded price (LTP), and average price.
+Holdings
+**List**: Displays the list of stocks in which the user has invested, including key details like stock name, quantity, last traded price (LTP), and average price.
 
 **Portfolio Summary**: Collapsible and expandable UI to provide a high-level overview of the portfolio's valuation.
 
@@ -15,9 +16,8 @@ Ensures the portfolio data is accessible even without an internet connection by 
 
 **Points of Evaluation**
 1. Architecture:
-   Adopts MVVM with a modular structure to scale the app easily for additional features.
-   Codebase is organized to separate responsibilities across models, view models, and views, ensuring reusability and maintainability.
-
+    - Adopts MVVM with a modular structure to scale the app easily for additional features.
+    - Codebase is organized to separate responsibilities across models, view models, and views, ensuring reusability and maintainability.
 
 2. Responsibility Segregation: Clearly defined layers/modules:
     - View: Handles UI and user interactions.
