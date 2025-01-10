@@ -15,7 +15,7 @@ Responsive Design: Clean, constraint-free UI developed programmatically, ensurin
     - View: Handles UI and user interactions.
     - ViewModel: Manages UI logic and acts as a mediator between the View and Model.
     - Model: Represents data structures and entities.
-4. iOS-Specific Implementation:
+4. iOS Implementation:
   - Programmatic UI eliminates dependency on Storyboards, providing:
       Flexibility in layout management.
       Reusability and easier code reviews.
