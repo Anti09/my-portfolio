@@ -9,14 +9,24 @@ This application displays a list of stock holdings along with a collapsible port
 
 **Responsive Design**: Clean, constraint-free UI developed programmatically, ensuring a smooth and responsive user experience across devices.
 
+**Offline Support:**
+Ensures the portfolio data is accessible even without an internet connection by persisting data locally.
+
+
 **Points of Evaluation**
 1. Architecture:
    Adopts MVVM with a modular structure to scale the app easily for additional features.
    Codebase is organized to separate responsibilities across models, view models, and views, ensuring reusability and maintainability.
-3. Responsibility Segregation: Clearly defined layers/modules:
+
+
+2. Responsibility Segregation: Clearly defined layers/modules:
     - View: Handles UI and user interactions.
     - ViewModel: Manages UI logic and acts as a mediator between the View and Model.
     - Model: Represents data structures and entities.
+      
+3. Offline Support:
+    - Persistent data handling ensures the app remains functional without an internet connection, providing a seamless user experience.
+      
 4. iOS Implementation:
   - Programmatic UI eliminates dependency on Storyboards, providing:
       Flexibility in layout management.
